@@ -70,10 +70,3 @@ To run the application, use the following commands:
 npm install
 npm start
 ```
-
-## Conclusion
-ChatSphere is a comprehensive chat solution suitable for a variety of communication needs, from casual conversations to structured team discussions. Its modular design and reliance on Firebase's scalable infrastructure make it a reliable choice for developers looking for a customizable chat platform.
-
----
-
-This documentation is intended for students and developers who wish to understand the structure and functionalities of the ChatSphere application. It serves as a guide to the application's features and the underlying technologies used to build it.
