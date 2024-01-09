@@ -6,7 +6,7 @@ import { useStateValue } from "../../StateProvider";
 import { actionTypes } from "../../reducer";
 
 function Login() {
-  const [state, dispatch] = useStateValue();
+  const [state,dispatch] = useStateValue();
 
   const signIn = () => {
     auth
@@ -25,10 +25,10 @@ function Login() {
     <div className="login">
       <div className="login-container">
         <img
-          src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg"
+          src="https://i.postimg.cc/2jQbtwLf/DALL-E-2024-01-08-22-17-42-A-modern-sleek-logo-for-a-feature-rich-chat-application-named-Chat-Sph.png"
           alt=""
         />
-        <h1>Sign in to Geliştiren Kafalar</h1>
+        <h1>Sign in to ChatSphere</h1>
         <Button onClick={signIn}>Sign in with Google</Button>
       </div>
     </div>
